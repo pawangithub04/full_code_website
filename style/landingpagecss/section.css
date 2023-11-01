@@ -1,0 +1,196 @@
+#container1 {
+    display: flex;
+    width: 100%;
+    
+    flex-direction: column;
+
+    
+    background-image: url('../IMAGES/lainding_main.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 85px 252px;
+    background-size: cover;
+    height: 100%;
+}
+#c3 {
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+
+/* .class3 b {
+    color: #F5F5F5;
+    font-family: IBM Plex Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.72px;
+}
+
+.digital {
+    color: #F5F5F5;
+    font-family: IBM Plex Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.52px;
+} */
+
+
+#c1 h1{color: #EBEBEB;
+    font-family: IBM Plex Sans;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -1.44px;
+    margin-bottom: 24px;}
+
+#c2 {
+    margin-bottom: 48px;
+}
+
+#c1 strong {
+    font-weight: 700;
+}
+.content p {
+    color: #EBEBEB;
+font-family: IBM Plex Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.8px;
+}
+.content span{
+    color: #70C1D6;
+font-family: IBM Plex Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.8px;
+}
+
+
+
+
+
+
+/* #c31 {
+border-radius: 8px;
+border: 2px solid #32B4A5;
+background: #8CDFD6;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-right: 32px;
+padding-left: 32px;
+} */
+
+/* .book_call_button {
+    position: absolute;
+    margin-top: 35px;
+    margin-right: 200px;
+}
+
+
+.book_call_button button {
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.46px;
+    border-radius: 8px;
+    border: 2px solid #32B4A5;
+    background: #8CDFD6;
+    display: inline-flex;
+    padding: 15px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 177px;
+    height: 60px;
+} */
+
+
+
+#c31 button {
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.46px;
+    border-radius: 8px;
+    border: 2px solid #32B4A5;
+    background: #8CDFD6;
+    display: flex;
+    padding: 15px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+#c31 a button:hover{
+    cursor: pointer;
+}
+
+
+
+#c32 button {
+    display: none;
+
+    padding: 15px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 2px solid #8CDFD6;
+    background: none;
+
+
+}
+#c32 button :hover{
+    cursor: pointer;
+}
+
+.Free_E_book {
+    color: #8CDFD6;
+    font-family: IBM Plex Sans;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.46px
+}
+
+.download-icon {
+    width: 24px;
+    height: 24px;
+
+
+}
+.unloking{
+   
+   width: 100%;
+   max-width: 648px
+   
+}
+.cta1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    column-gap: 10px;
+}
+.download-icon{
+    margin-left: 10px;
+}

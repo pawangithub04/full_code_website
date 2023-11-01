@@ -1,0 +1,243 @@
+.have_project{
+    text-align: center;
+}
+
+.have_project h3{
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+
+}
+.have_convo{
+    text-align: center;
+    
+    margin: 0;
+}
+.have_convo p{
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+.header_book{
+    display: flex;
+    justify-content: center;
+}
+.header_book button:hover{
+    cursor: pointer;
+}
+.header_book button{
+    border-radius: 8px;
+    border: 2px solid #32B4A5;
+    background: #8CDFD6;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top:24px ;
+    padding-bottom:24px ;
+    text-align: center;
+    margin-bottom: 48px;
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.48px;
+    margin-bottom: 48px;}
+
+    /* .header_book a {color: #000;
+font-family: IBM Plex Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.48px;
+margin-bottom: 48px;
+} */
+
+.add_cmpny-name p {
+    color: #1F1F1F;
+    font-family: IBM Plex Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.92px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+.cmpny_address p { 
+    color: #3D3D3D;
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.44px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+.cmpny_phn_no a{
+    color: #3D3D3D;
+    font-family: IBM Plex Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.92px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+.cmpny_email a{
+    color: #3D3D3D;
+    font-family: IBM Plex Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.92px;
+}
+.cmpny p{
+    color: #3D3D3D;
+    font-family: IBM Plex Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.92px;
+    margin: 0;
+    margin-bottom: 24px;
+}
+.service1{
+    color: #1F1F1F;
+font-family: IBM Plex Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.44px;
+margin-bottom: 16px;
+}
+.service2{
+    color: #1F1F1F;
+font-family: IBM Plex Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.44px;
+margin-bottom: 16px;
+}
+.service3{
+    color: #1F1F1F;
+font-family: IBM Plex Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.44px;
+margin-bottom: 16px;
+}
+.service4{
+    color: #1F1F1F;
+font-family: IBM Plex Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.44px;
+margin-bottom: 16px;
+}
+.copyright a{
+    color: #3D3D3D;
+font-family: IBM Plex Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.96px;
+}
+.tndc a{
+    color: #292929;
+font-family: IBM Plex Sans;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.02px;
+}
+.privacy-policy a{
+    color: #292929;
+font-family: IBM Plex Sans;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.02px;
+}
+.footer{
+    padding: 85px 252px;
+    background: #98D2E1;
+}
+.footer_table_sec{
+    display: flex;
+    justify-content: space-between;
+}
+.common_links{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: 40px;
+    align-items: center;
+}
+.copy_right ul {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    list-style: none;
+
+}
+.logo_links{
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+    
+}
+
+.copy_right{
+    width: 800px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.addrs{
+    width: 690px;
+    margin-bottom: 80px;
+}
+.hrline{
+    height: 3px;
+stroke-width: 4px;
+background: #292929;
+margin-bottom: 80px;
+}
+hr{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.foot{
+    height: 2px;
+stroke-width: 4px;
+background: #3d3d3d;
+margin-bottom: 80px;
+}

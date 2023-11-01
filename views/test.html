@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us <Form></Form></title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=IBM Plex Sans:wght@400;500;700&display=swap" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@100;200;300&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="contactuscss/contactusforlive.css">
+        <link rel="stylesheet" href="contactuscss/mediatag.css">
+    <style>
+#error-message{
+    position: relative;
+    top: -16px;
+}
+#email-error-message{
+    position: relative;
+    top: -16px;
+}
+</style>
+</head>
+<body>
+    <header>
+        <div class="class">
+            <div class="class2">
+                <a href="index.html"><img src="IMAGES/byteLOGO.svg" alt=""></a>
+            </div>
+            <div class="class3">
+                <a href="index.html"><b class="book-a-free">Byte</b></a>
+                <a href="index.html"><div class="digital">Digital</div></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="classm1">
+            <div class="subclassm1">
+                <div class="boook">
+                    <div class="content-box">
+                        <h3><strong>Book your free consultation</strong></h3>
+                        <p>Free in-depth consultations to understand your project needs,
+                            budget, and marketing direction. Leverage our 20 years of experience
+                            for clear planning and guidance.</p>
+                        <p><strong>No pressure, no obligation and absolutely no cost.</strong></p>
+                    </div>
+                    <div class="chat-us">
+                        <div class="chat_us">
+                            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"><img class="contact-icon" src="IMAGES/chatUS.svg" alt="Telephone Icon"></a>
+                            
+                        </div>
+                        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"><div class="contact-info">
+                            <h3>Chat with us</h3>
+                            <p>Our friendly team is here to help.</p>
+                            <a class="email-link" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">hello@byte-digital.com.au</a>
+                        </div></a>
+                    </div>
+                    <div class="call_us">
+                        <div class="call-us" id="call-us">
+                            <a href="tel:+61452515004"><img class="call-icon" src="IMAGES/phone.svg" alt="Telephone Icon"></a>
+                            
+                        </div>
+                        
+                        <a href="tel:+61452515004"><div class="contact-info">
+                            <h3>Call us</h3>
+                            <p>Mon - Fri from 8am to 5 pm</p>
+                            <a class="email-link" href=" tel:+61452515004">+61-452515004</a>
+                        </div></a>
+                    </div>
+
+                </div>
+                <div class="form">
+                    <form id="myForm" action="/" method="post">
+                        <div class="your-full-name-parent">
+                            <div class="your-full-name"><label for="name">your Name:</label></div>
+                            <div class="frame-inner"><input type="text" id="name" name="name" required></div>
+
+                        </div>
+                        <div class="your-phone-number-parent">
+                            <div class="your-full-name"><label for="phone_number">Your phone number</label></div>
+                            <div class="frame-inner"><input type="tel" id="phone_number" pattern="[0-9]{10}" name="phone_number" required></div>
+                            <div id="error-message" style="color: red;"></div>
+                            
+                        </div>
+                        <div class="your-email-address-parent">
+                            <div class="your-full-name"><label id="email-label" for="email">Your email address</label></div>
+                            <div class="frame-inner"><input type="email" id="email"  name="email" required></div>
+                            <div id="email-error-message" style="color: red;"></div>
+                        </div>
+                        <div class="subject-parent">
+                            <div class="your-full-name"><label for="subject">Subject</label></div>
+                            <div class="frame-inner"><input type="text" id="subject" name="subject" required></div>
+                        </div>
+                        <div class="message-parent">
+                            <div class="your-full-name"><label for="name"></label>Message</div>
+                            <div class="frame-child3"><textarea type="text" id="Message" name="message" required
+                                    rows="5" column="6"></textarea></div>
+                        </div>
+                        
+                        <div class="select">
+                            <h3>I am looking for:</h3>
+                        </div>
+                        <div class="toggle-buttons-container">
+    
+                            <div class="toggle-button">
+                                <input type="checkbox" id="option-1" name="service" value="UX and UI Design">
+                                <label for="option-1">UX and UI Design</label>
+                            </div>
+    
+                            <div class="toggle-button">
+                                <input type="checkbox" id="option-2" name="service" value="Web development">
+                                <label for="option-2">Web development</label>
+                            </div>
+    
+                            <div class="toggle-button">
+                                <input type="checkbox" id="option-3" name="service" value="SEO">
+                                <label for="option-3">SEO</label>
+                            </div>
+    
+                            <div class="toggle-button">
+                                <input type="checkbox" id="option-4" name="service" value="hosting and maintenance">
+                                <label for="option-4">hosting and maintenance</label>
+                            </div>
+    
+                            <div class="toggle-button">
+                                <input type="checkbox" id="option-5" name="service" value="App development">
+                                <label for="option-5">App development</label>
+                            </div>
+                        </div>
+                        <div class="horizontal-button">
+    
+                            <a href="thankyou.html" target="_blank" ><button id="clickButton" type="submit">Book a free consultation</button></a>
+    
+                        </div>
+                        
+                    </form>
+                    
+            </div>
+        </div>
+
+    </main>
+
+    </div>
+   
+    <script src="submitbutton.js"></script>  
+    <script>
+        const phoneNumberInput = document.getElementById("phone_number");
+        const errorMessageDiv = document.getElementById("error-message");
+        
+        phoneNumberInput.addEventListener("invalid", function(event) {
+          event.preventDefault();
+          errorMessageDiv.textContent = "Please enter a valid 10-digit phone number.";
+          phoneNumberInput.style.borderColor = "red"; // Change border color to red
+        });
+        
+        phoneNumberInput.addEventListener("input", function() {
+          errorMessageDiv.textContent = "";
+          phoneNumberInput.style.borderColor = "initial"; // Reset border color
+        });
+        </script>
+    
+    <!-- <script>
+        const phoneNumberInput = document.getElementById("phone_number");
+        const errorMessageDiv = document.getElementById("error-message");
+        
+        phoneNumberInput.addEventListener("invalid", function(event) {
+          // Prevent the browser's default error message
+          event.preventDefault();
+        
+          // Display a custom error message
+          errorMessageDiv.textContent = "Please enter a valid 10-digit phone number.";
+        });
+        
+        // Clear the error message when the input is considered valid
+        phoneNumberInput.addEventListener("input", function() {
+          errorMessageDiv.textContent = "";
+        });
+        </script>   -->
+        <script>
+            const emailInput = document.getElementById("email");
+            const emailErrorMessageDiv = document.getElementById("email-error-message");
+            
+            emailInput.addEventListener("invalid", function(event) {
+              event.preventDefault();
+              emailErrorMessageDiv.textContent = "Please provide a valid email address.";
+              emailInput.style.borderColor = "red";
+            });
+            
+            emailInput.addEventListener("input", function() {
+              emailErrorMessageDiv.textContent = "";
+              emailInput.style.borderColor = "initial";
+            });
+            </script>
+            <script>
+                document.getElementById("clickButton").addEventListener("click", function(event) {
+                  event.preventDefault(); // Prevent the default form submission
+                  
+                  // Add your own logic here, such as additional actions or validation
+                  
+                  // Navigate to the desired page
+                  window.location.href = "thankyou.html";
+                  
+                  // Alternatively, if you still want to submit the form:
+                  // document.getElementById("myForm").submit();
+                });
+                </script>
+             
+        
+        <!-- <script>
+            const phoneNumberInput = document.getElementById("phone_number");
+            const errorMessageDiv = document.getElementById("error-message");
+            
+            const emailLabel = document.getElementById("email-label");
+            const emailErrorMessageDiv = document.getElementById("email-error-message");
+            
+            phoneNumberInput.addEventListener("invalid", function(event) {
+              event.preventDefault();
+              errorMessageDiv.textContent = "Please enter a valid 10-digit phone number.";
+              phoneNumberInput.style.borderColor = "red";
+            });
+            
+            phoneNumberInput.addEventListener("input", function() {
+              errorMessageDiv.textContent = "";
+              phoneNumberInput.style.borderColor = "initial";
+            });
+            
+            emailLabel.addEventListener("invalid", function(event) {
+              event.preventDefault();
+              emailErrorMessageDiv.textContent = "Please provide a valid email address.";
+              emailLabel.style.color = "red";
+            });
+            
+            emailLabel.addEventListener("input", function() {
+              emailErrorMessageDiv.textContent = "";
+              emailLabel.style.color = "initial";
+            });
+            </script> -->
+</body>
+
+</html>
+

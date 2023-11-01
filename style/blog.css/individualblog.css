@@ -1,0 +1,216 @@
+.main{
+    display: flex;
+    row-gap: 40px;  
+    flex-direction: column;  
+    padding: 80px 299px; 
+    box-sizing: border-box;             
+}
+.pageimg img{
+    width: 100%;
+    height: auto;
+}
+.pageimg{
+    display: flex;
+
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.main h1{
+    color: #F5F5F5;
+font-family: IBM Plex Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.96px;
+margin: 0;
+}
+.datebox{
+    padding: 4px 16px;
+    box-sizing: border-box;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.50);
+    display: inline-block;  
+}
+.datebox p{
+    color: #F5F5F5;
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.48px;
+    margin: 0;
+    }
+.maintext p{
+    color: #E0E0E0;
+    font-family: IBM Plex Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #8CDFD6;
+  }
+.blognavigation p{
+    color: #FFF;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.32px;
+    margin: 0;
+}
+.blognavigation span{
+    color: var(--Primary, #8CDFD6);
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.32px;
+    margin: 0;
+}
+ul{
+    color: #E0E0E0;
+    font-family: IBM Plex Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.4px;
+}
+h3{
+    margin: 0;
+    font-size: 22;
+    color: #E0E0E0;
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.48px;
+}
+@media screen and (max-width: 1512px) {
+    .main{ 
+        padding: 80px 290px;  
+        box-sizing: border-box;            
+    }
+   
+    .pageimg{
+        display: flex;
+    
+    }
+    
+    .main h1{
+    font-size: 40px;
+    }
+    .datebox p{
+        font-size: 20px;
+        }
+    .maintext p{
+        font-size: 20px;
+    }
+    ul{
+        font-size: 20px;
+    }
+    .blognavigation p{
+        font-size: 16px;
+    }
+    .blognavigation span{
+        font-size: 16px;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .main{ 
+        padding: 80px 190px;  
+        box-sizing: border-box;            
+    }
+   
+    .pageimg{
+        display: flex;
+    
+    }
+    
+    .main h1{
+    font-size: 48px;
+    }
+    .datebox p{
+        font-size: 24px;
+        }
+    .maintext p{
+        font-size: 20px;
+    }
+    ul{
+        font-size: 20px;
+    }
+    .blognavigation p{
+        font-size: 16px;
+    }
+    .blognavigation span{
+        font-size: 16px;
+    }
+  }
+  @media screen and (max-width: 780px) {
+    .main{ 
+        padding: 80px 150px;  
+        box-sizing: border-box;            
+    } 
+    .main h1{
+    font-size: 30px;
+    }
+    .datebox p{
+        font-size: 20px;
+        }
+    .maintext p{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    ul{
+        font-size: 18px;
+    }
+   
+  }
+  @media screen and (max-width: 550px) {
+    .main{ 
+        padding: 40px 40px;  
+        row-gap: 20px;           
+    }
+    .maintext{
+        row-gap: 18px;
+    }
+    .main h1{
+    font-size: 20px;
+    }
+    .datebox p{
+        font-size: 16px;
+        }
+    .maintext p{
+        font-size: 14px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    ul{
+        font-size: 14px;
+    }
+   
+  }
+  @media screen and (max-width: 550px) {
+    .main{ 
+        padding: 40px 16px;
+                  
+    }
+  }
+  
+  

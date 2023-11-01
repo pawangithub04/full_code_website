@@ -1,0 +1,892 @@
+body{
+    background: linear-gradient(90deg, #232526 0%, #414345 100%);
+}
+.have_project{
+text-align: center;
+}
+
+.have_project h3{
+color: #000;
+font-family: IBM Plex Sans;
+font-size: 120px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 0;
+
+}
+.have_convo{
+text-align: center;
+
+margin: 0;
+}
+.have_convo p{
+color: #000;
+font-family: IBM Plex Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 24px;
+margin-bottom: 48px;
+}
+.header_book button{
+border-radius: 8px;
+border: 2px solid #32B4A5;
+background: #8CDFD6;
+display: block;
+margin: auto;
+padding-left: 64px;
+padding-right: 64px;
+padding-top:24px ;
+padding-bottom:24px ;
+text-align: center;
+margin-bottom: 48px;}
+.header_book a {color: #000;
+font-family: IBM Plex Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.48px;
+margin-bottom: 48px;
+}
+
+.add_cmpny-name p {
+color: #1F1F1F;
+font-family: IBM Plex Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.92px;
+margin: 0;
+margin-bottom: 16px;
+}
+.cmpny_address p { 
+color: #3D3D3D;
+font-family: IBM Plex Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1.44px;
+margin: 0;
+margin-bottom: 16px;
+}
+.cmpny_phn_no a{
+color: #3D3D3D;
+font-family: IBM Plex Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1.92px;
+margin: 0;
+margin-bottom: 16px;
+}
+.cmpny_email a{
+color: #3D3D3D;
+font-family: IBM Plex Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1.92px;
+}
+.cmpny p{
+color: #3D3D3D;
+font-family: IBM Plex Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1.92px;
+margin: 0;
+margin-bottom: 24px;
+}
+.menu{
+display: none;
+}
+.service1{
+color: #1F1F1F;
+font-family: IBM Plex Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.44px;
+margin-bottom: 16px;
+}
+.service2{
+color: #1F1F1F;
+font-family: IBM Plex Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.44px;
+margin-bottom: 16px;
+}
+.service3{
+color: #1F1F1F;
+font-family: IBM Plex Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.44px;
+margin-bottom: 16px;
+}
+.service4{
+color: #1F1F1F;
+font-family: IBM Plex Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.44px;
+margin-bottom: 16px;
+}
+.copyright a{
+color: #3D3D3D;
+font-family: IBM Plex Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.96px;
+}
+.tndc a{
+color: #292929;
+font-family: IBM Plex Sans;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.02px;
+}
+.privacy-policy a{
+color: #292929;
+font-family: IBM Plex Sans;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.02px;
+}
+.footer{
+padding: 250px;
+background: #98D2E1;
+}
+.footer_table_sec{
+display: flex;
+justify-content: space-between;
+}
+.common_links{
+display: flex;
+justify-content: space-between;
+margin: 0;
+margin-top: 40px;
+align-items: center;
+}
+.copy_right ul {
+display: flex;
+justify-content: space-around;
+padding-left: 0px;
+list-style: none;
+
+}
+.logo_links{
+display: flex;
+width: 180px;
+justify-content: space-between;
+
+}
+
+.copy_right{
+width: 800px;
+}
+.links{
+display: flex;
+flex-direction: column;
+}
+.addrs{
+width: 690px;
+margin-bottom: 80px;
+}
+.hrline{
+height: 3px;
+stroke-width: 4px;
+background: #292929;
+margin-bottom: 80px;
+}
+hr{
+margin: 0;
+}
+a{
+text-decoration: none;
+}
+.foot{
+height: 2px;
+stroke-width: 4px;
+background: #3d3d3d;
+margin-bottom: 80px;
+}
+.header{
+padding: 280px;
+padding-bottom: 24px;
+padding-top: 24px;
+display: flex;
+justify-content: space-between;
+}
+.logo{
+display: flex;
+}
+.byte {
+color: #F5F5F5;
+font-family: IBM Plex Sans;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.72px;
+}
+
+.digital {
+color: #F5F5F5;
+font-family: IBM Plex Sans;
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.52px;
+}
+.headlinks{
+display: flex;
+column-gap: 40px;
+
+align-items: center;
+}
+.hamburger{
+display: none;
+}
+.womenSelfie{
+display: none;
+}
+.headlinks a:hover {
+color: #8CDFD6;
+}
+
+.headlinks a {
+color: #F5F5F5;
+font-family: IBM Plex Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.48px;
+}
+.no-decoration button:hover{
+cursor: pointer;
+}
+.no-decoration button{
+color: #000;
+font-family: IBM Plex Sans;
+font-size: 23px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.46px;
+border-radius: 8px;
+border: 2px solid #32B4A5;
+background: #8CDFD6;
+padding: 15px;
+padding-right: 30px;
+padding-left: 30px;
+}
+.no-decoration{
+text-decoration: none;
+}
+ul{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.thankyou_main{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+padding: 475px;
+padding-top: 130px;
+padding-bottom: 130px;
+}
+.thankyou h1{
+color: #FAFAFA;
+font-family: 'Just Me Again Down Here', cursive;
+font-size: 120px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -2.4px;
+margin: 0;
+}
+.thankyou h1 {
+margin: 0;
+} 
+.thankyou_content h3{
+color: #FAFAFA;
+font-family: IBM Plex Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.64px;
+margin: 0;
+margin: 0;
+padding-left: 114px;
+padding-right: 150px;
+}
+.thankyou_content p {
+color: #E0E0E0;
+text-align: center;
+font-family: IBM Plex Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.48px;
+}
+.thankyou_content{
+margin-top: 80px;
+}
+.thankyouImage{
+width: 750px;
+height: 328px;
+}
+.womenSelfie{
+display: none;
+}
+@media(max-width:1654px){
+.header {
+padding: 271px;
+padding-bottom: 24px;
+padding-top: 24px;
+column-gap: 189px;
+}
+.headlinks {
+column-gap: 48px;
+width: auto;
+}
+.byte {
+font-size: 28px;
+letter-spacing: -0.56px;
+}
+.digital {
+font-size: 20px;
+letter-spacing: -0.4px;
+}
+.headlinks a {
+font-size: 16px;
+letter-spacing: -0.32px;
+}
+.no-decoration button {
+font-size: 17px;
+letter-spacing: -0.34px;
+padding: 11px;
+padding-right: 27px;
+padding-left: 27px;
+}
+.thankyou_main {
+
+padding: 345px;
+padding-top: 120px;
+padding-bottom: 120px;
+}
+.thankyou h1 {
+color: #FAFAFA;
+font-family: Just Me Again Down Here;
+font-size: 120px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -2.4px;
+}
+.thankyou_image img {
+width: 750px;
+height: 328px;  
+}
+.thankyou_content h3 {
+padding: 0;
+text-align: center;
+}
+.thankyou_content p {
+margin: 0;
+margin-top: 8px;
+}
+.thankyou_content {
+margin-top: 72px;
+}
+.logo img {
+width: 64px;
+height: 64px;
+}
+.have_project h3 {
+font-size: 80px;
+}
+.have_convo p {
+font-size: 32px;
+margin-top: 8px;
+margin-bottom: 24px;
+
+}
+.header_book a {
+font-size: 17px;
+letter-spacing: -0.34px;
+}
+.add_cmpny-name p {
+font-size: 32px;
+letter-spacing: 1.92px;
+margin-bottom: 16px;
+}
+.cmpny_address p {
+font-size: 16px;
+letter-spacing: 0.96px;
+margin-bottom: 16px;
+
+}
+.cmpny_phn_no a {
+font-size: 24px;
+letter-spacing: 1.44px;
+margin-bottom: 16px;
+display: block;
+margin-bottom: 16px;
+}
+.cmpny_email a {
+font-size: 24px;
+letter-spacing: 1.44px;
+}
+.cmpny p {
+font-size: 32px;
+letter-spacing: 1.92px;
+margin-bottom: 24px;
+}
+.service4 {
+font-size: 16px;
+letter-spacing: 0.96px;
+margin-bottom: 0;
+}
+.service3  {
+font-size: 16px;
+letter-spacing: 0.96px;
+}
+.service2{
+font-size: 16px;
+letter-spacing: 0.96px;
+}
+.service1 {
+font-size: 16px;
+letter-spacing: 0.96px;
+}
+.header_book button {
+margin-bottom: 40px;
+padding: 13px;
+padding-right: 32px;
+padding-left: 32px;
+}
+.hrline {
+margin-bottom: 40px;
+}
+.addrs {
+margin-bottom: 0px;
+}
+.foot {
+margin-bottom: 40px;
+margin-top: 32px;
+}
+.footer {
+padding: 80px 120px ;
+}
+
+}
+
+
+
+@media(max-width:1414px){
+.header {
+column-gap: 140px;
+}
+.headlinks {
+column-gap: 30px;
+}
+}
+@media(max-width:1293px){
+.header {
+column-gap: 120px;
+}
+.headlinks {
+column-gap: 25px;
+}
+}
+@media (max-width:1251px){
+
+.header {
+padding: 210px;
+padding-bottom: 24px;
+padding-top: 24px;
+column-gap: 189px;
+} 
+
+
+
+
+.copy_right ul {
+flex-direction: column;
+}
+.thankyou_main {
+padding: 320px;
+padding-top: 120px;
+padding-bottom: 120px;}
+.addrs {
+width: 45%;
+}
+.logo_links img {
+margin-right: 10px;
+}
+
+
+}
+@media only screen and (max-width: 1150px) {
+    .header{align-items: center;
+    justify-content: space-between;}
+    .headlinks{display: none;}
+    header .hamburger {
+    display: block;
+    }
+    
+    header .headlinks {
+    margin: 0;
+    position: absolute;
+    top: -100%;
+    left: 0;
+    
+    height: fit-content;
+    background: linear-gradient(90deg, #232526 0%, #414345 100%);
+    transition: 0.3s;
+    text-align: center;
+    z-index: 2;
+    
+    }
+    .headlinks .active{
+    width: 100%;
+    }
+    
+    
+    header .headlinks.active {
+    top: 100px;
+    width: -webkit-fill-available;
+    height: 54%;
+    }
+    header .headlinks.active .no-decoration{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    }
+    header .headlinks.active .no-decoration button{
+    width: 80%;
+    }
+    header .headlinks  {
+    display: block;
+    }
+    
+    .hamburger div{
+    width: 30px;
+    height: 2px;
+    margin: 6px 0;
+    background: #fff;
+    }
+    }
+    @media(max-width:450px){
+    .logo img {
+    width: 40px;
+    height: 40px;
+    }
+    .header {
+    padding: 10px 16px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    }
+    .womenSelfie {
+    width: 100%;
+    height: 100%;
+    }
+    header .headlinks.active {
+    padding: 0 16px;
+    }
+    header .headlinks.active {
+    height: 58%;
+    }
+    }
+@media(max-width:1084px){
+.thankyou_image img {
+width: 600px;
+height: 275px;
+}
+.thankyou_main {
+padding: 280px;
+padding-top: 120px;
+padding-bottom: 120px;
+}
+.header {
+padding: 170px;
+padding-bottom: 24px;
+padding-top: 24px;
+
+}
+}
+@media(max-width:1010px){
+.thankyou_image img {
+width: 580px;
+height: 265px;
+}
+.thankyou_main {
+padding: 168px;
+padding-top: 120px;
+padding-bottom: 120px;
+}
+.header {
+padding: 130px;
+padding-bottom: 24px;
+padding-top: 24px;
+
+}
+}
+@media(max-width:795px){
+    header .headlinks.active {
+        top: 100px;
+       
+    }
+   
+.thankyouImage{
+display: none;
+}
+.have_project h3 {
+font-size: 24px;
+}
+.have_convo p {
+font-size: 16px;
+margin-top: 8px;
+margin-bottom: 24px;
+
+}
+.header_book a {
+font-size: 15px;
+letter-spacing: -0.3px;
+}
+.add_cmpny-name p {
+font-size: 24px;
+letter-spacing: 1.44px;
+margin-bottom: 8px;
+}
+.cmpny_address p {
+font-size: 14px;
+letter-spacing: 0.84px;
+margin-bottom: 8px;
+
+}
+.cmpny_phn_no a {
+font-size: 20px;
+letter-spacing: 1.2px;
+margin-bottom: 8px;
+display: block;
+
+}
+.cmpny_email a {
+font-size: 20px;
+letter-spacing: 1.2px;
+
+}
+.cmpny_email{
+margin-bottom: 24px;
+}
+.cmpny p {
+font-size: 24px;
+letter-spacing: 1.44px;
+margin-bottom: 24px;
+}
+.service4 {
+font-size: 15px;
+letter-spacing: 0.9px;
+margin-bottom: 0;
+color: #666;
+margin-bottom: 0;
+}
+.service3  {
+font-size: 15px;
+letter-spacing: 0.9px;
+color: #666;
+margin-bottom: 0;
+}
+.service2{
+font-size: 15px;
+letter-spacing: 0.9px;
+color: #666;
+margin-bottom: 0;
+}
+.service1 {
+font-size: 15px;
+letter-spacing: 0.9px;
+color: #666;
+letter-spacing: 0.9px;
+margin-bottom: 0;
+}
+.header_book button {
+margin-bottom: 24px;
+padding: 13px;
+padding-right: 32px;
+padding-left: 32px;
+}
+.hrline {
+margin-bottom: 24px;
+}
+.addrs {
+margin-bottom: 8px;
+width: 100%;
+}
+
+.foot {
+margin-bottom: 24px;
+margin-top: 24px;
+}
+.footer {
+padding-right: 16px;
+padding-left: 16px;
+padding: 32px;
+}
+.foot {
+height: 2px;
+stroke-width: 4px;
+background: #3D3D3D;
+
+}
+
+.links p {
+display: flex;
+}
+.footer_table_sec {
+flex-direction: column;
+}
+.cmpny{
+display: none;
+}
+.addrs::after{
+content: "Company";
+color: #1F1F1F;
+font-family: IBM Plex Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.44px;
+}
+.copy_right {
+width: 100%;
+color: #3D3D3D;
+font-size: 16px;
+letter-spacing: 0.96px;
+}
+.copyright{
+width: 100%;
+}
+.common_links {
+flex-direction: column-reverse;
+align-items: normal;
+margin-top: 0px;
+gap: 16px;
+}
+.links {
+flex-direction: row;
+justify-content: space-between;
+width: 98%;
+}
+.copy_right ul {
+display: flex;
+gap: 16px;
+flex-wrap: wrap;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+}
+.tndc a{
+width: 40%;
+color: #666;
+font-size: 14px;
+letter-spacing: 0.84px;
+
+
+}
+.tndc{
+width: 25%;
+
+padding-right: 16px;
+}
+
+.privacy-policy a{
+width: 40%;
+color: #666;
+font-size: 14px;
+letter-spacing: 0.84px;
+}
+.privacy-policy{
+width: 40%;
+}
+.book_call_button{
+width: 107px;
+}
+.book_call_button a ::after{
+content: "\003E";
+position: absolute;
+right: 18px;
+}
+.byte{
+    font-size: 16px;
+}
+.digital{
+    font-size: 12px;
+}
+.logo img{
+    height: 40px;
+}
+
+.thankyou h1{
+font-size: 56px;
+letter-spacing: -1.12px;
+}
+.thankyou_content h3{
+font-size: 24px;
+letter-spacing: -0.48px;
+}
+.thankyou_content p {
+font-size: 16px;
+letter-spacing: -0.32px;
+}
+.header{
+padding: 80px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.thankyou_main{
+padding: 26px;
+padding-top: 32px;
+padding-bottom: 32px;
+}
+
+.womenSelfie{
+display: block;
+}
+.thankyou_content {
+margin-top: 32px;
+}
+
+}

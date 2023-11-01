@@ -1,0 +1,1249 @@
+@media(max-width:1512px) {
+
+    /* ..........................................header............................................. */
+    .class {
+        padding: 24px 150px;
+    }
+
+    .class2 img {
+        height: 64px;
+    }
+
+    .book-a-free {
+        font-size: 28px;
+        letter-spacing: -0.56px;
+    }
+
+    .digital {
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .book_call_button a button {
+        font-size: 17px;
+        letter-spacing: -0.34px;
+        padding: 11px;
+        padding-right: 27px;
+        padding-left: 27px;
+    }
+
+    #container1 {
+        padding: 85px 150px;
+
+    }
+
+    #c1 h1 {
+        font-size: 48px;
+        line-height: 129.5%;
+        /* 62.16px */
+        letter-spacing: -0.96px;
+    }
+
+    #c2 p {
+        font-size: 32px;
+        letter-spacing: -0.64px;
+    }
+
+    #c3 button {
+        font-size: 23px;
+        letter-spacing: -0.46px;
+        padding: 11px;
+        padding-right: 27px;
+        padding-left: 27px;
+    }
+
+    .Free_E_book {
+        font-size: 23px;
+        letter-spacing: -0.46px;
+    }
+
+    /* .......................................section2........................................................ */
+    #content2 {
+        font-size: 48px;
+        line-height: 125%;
+        letter-spacing: 0.96px;
+    }
+
+    #content2 span {
+        font-size: 48px;
+    }
+
+    #container2 {
+        padding: 85px 150px;
+    }
+
+    /* ...............................................sectin3......................................................... */
+    #content31 h3 {
+        font-size: 40px;
+        letter-spacing: -0.8px;
+    }
+
+    .underline {
+        margin-top: 16px;
+    }
+
+    #content32 p {
+        font-size: 32px;
+        line-height: 125%;
+        /* 40px */
+    }
+
+    .content33 {
+        font-size: 24px;
+        line-height: 125%;
+        /* 30px */
+        letter-spacing: 0.48px;
+    }
+
+    .container3 {
+        padding: 85px 150px;
+    }
+
+    /* ...............................................sectin4......................................................... */
+    #our_work1 {
+        font-size: 40px;
+        letter-spacing: -0.8px;
+    }
+
+    #our_work2 {
+        font-size: 32px;
+        line-height: 125%;
+        /* 40px */
+    }
+
+    .line {
+        margin-top: 16px;
+    }
+
+    .casestudy {
+        font-size: 32px;
+        line-height: 125%;
+        /* 40px */
+    }
+
+   
+
+    /* #image2 {
+        height: 397.5px;
+        padding-top: 254px;
+        margin-bottom: 18px;
+    }
+
+    #image3 {
+        height: 397.5px;
+        padding-top: 254px;
+        margin-right: 18px;
+    }
+
+    #image4 {
+        height: 397.5px;
+        padding-top: 254px;
+    } */
+
+    .section_4 {
+        padding: 85px 150px;
+    }
+
+    /* ...............................................sectin5......................................................... */
+    .our-work {
+        font-size: 40px;
+        letter-spacing: -0.8px;
+    }
+
+    .practical-solutions-that {
+        font-size: 32px;
+        letter-spacing: -0.64px;
+    }
+
+    .uxui-design-and {
+        font-size: 20px;
+        letter-spacing: -0.4px;
+    }
+
+    .practical-solutions-that {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .frame-child15 {
+        margin: 0;
+        margin-top: 16px;
+    }
+
+    .rectangle-wrapper {
+        height: 310px;
+        padding: 40px;
+    }
+
+    .frame-child17 {
+        height: 310px;
+    }
+
+    .dont-think {
+        font-size: 40px;
+    }
+
+    .lets-chat {
+        font-size: 40px;
+    }
+
+    .design-parent {
+        gap: 6px;
+    }
+
+    .section5 {
+        padding: 85px 150px;
+    }
+
+    /* ...............................................sectin6......................................................... */
+    b.reviews {
+        font-size: 40px;
+        letter-spacing: -0.8px;
+    }
+
+    .hear-it-from {
+        font-size: 32px;
+        letter-spacing: -0.64px;
+        margin-bottom: 40px;
+    }
+
+    .byte-digitals-expertise {
+        font-size: 24px;
+        letter-spacing: -0.48px;
+        margin-bottom: 40px;
+    }
+
+    .bruce-lee {
+        font-size: 16px;
+        letter-spacing: -0.32px;
+    }
+
+    .acme-incorporation {
+        font-size: 16px;
+        letter-spacing: -0.32px;
+    }
+
+    .line-div {
+        margin-bottom: 40px;
+        margin-top: 16px;
+    }
+
+    .dots {
+        padding-top: 40px;
+    }
+
+    .section6 {
+        padding: 85px 150px;
+    }
+
+
+
+
+    /* ...............................................sectin7......................................................... */
+    .FAQs {
+        font-size: 40px;
+        letter-spacing: -0.8px;
+    }
+
+    .some-of-the {
+        font-size: 48px;
+        letter-spacing: -0.96px;
+    }
+
+    .accordion {
+        font-size: 32px;
+        letter-spacing: -0.64px;
+        padding-top: 40px;
+        padding-bottom: 12px;
+    }
+
+    .panel p {
+        font-size: 24px;
+        letter-spacing: -0.48px;
+
+    }
+
+    .faqcontent {
+        font-size: 24px;
+        letter-spacing: -0.48px;
+    }
+
+    .frame-child18 {
+        margin-bottom: 40px;
+        margin-top: 16px;
+    }
+
+    .dr {
+        padding: 85px 150px;
+    }
+
+    /* .................................................footer................................................................. */
+    .have_project h3 {
+        font-size: 80px;
+    }
+
+    .have_convo p {
+        font-size: 32px;
+        margin-top: 8px;
+        margin-bottom: 24px;
+
+    }
+
+    .header_book a {
+        font-size: 17px;
+        letter-spacing: -0.34px;
+    }
+
+    .add_cmpny-name p {
+        font-size: 32px;
+        letter-spacing: 1.92px;
+        margin-bottom: 16px;
+    }
+
+    .cmpny_address p {
+        font-size: 16px;
+        letter-spacing: 0.96px;
+        margin-bottom: 16px;
+
+    }
+
+    .cmpny_phn_no a {
+        font-size: 24px;
+        letter-spacing: 1.44px;
+        margin-bottom: 16px;
+        display: block;
+        margin-bottom: 16px;
+    }
+
+    .cmpny_email a {
+        font-size: 24px;
+        letter-spacing: 1.44px;
+    }
+
+    .cmpny p {
+        font-size: 32px;
+        letter-spacing: 1.92px;
+        margin-bottom: 24px;
+    }
+
+    .service4 {
+        font-size: 16px;
+        letter-spacing: 0.96px;
+        margin-bottom: 0;
+    }
+
+    .service3 {
+        font-size: 16px;
+        letter-spacing: 0.96px;
+    }
+
+    .service2 {
+        font-size: 16px;
+        letter-spacing: 0.96px;
+    }
+
+    .service1 {
+        font-size: 16px;
+        letter-spacing: 0.96px;
+    }
+
+    .header_book button {
+        margin-bottom: 40px;
+        padding: 13px;
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+
+    .hrline {
+        margin-bottom: 40px;
+    }
+
+    .addrs {
+        margin-bottom: 0px;
+    }
+
+    .foot {
+        margin-bottom: 40px;
+        margin-top: 32px;
+    }
+
+    .footer {
+        padding: 85px 150px;
+    }
+}
+
+
+
+@media (max-width: 1419px) {
+    .uxui-design-and span {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 1205px) {
+
+    .design {
+        font-size: 20px;
+
+    }
+
+    .uxui-design-and {
+        font-size: 16px;
+    }
+
+    .dont-think {
+        font-size: 35px;
+    }
+
+    .lets-chat {
+        font-size: 35px;
+    }
+
+    .girl-chatting-online {
+        height: 231px;
+    }
+
+    .rectangle-wrapper {
+        height: 290px;
+    }
+
+    .frame-child17 {
+        height: 290px;
+    }
+}
+
+@media (max-width: 1192px) {
+    .copy_right ul {
+        flex-direction: column;
+    }
+
+    .accordion {
+        font-size: 28px;
+    }
+
+    .lets-chat {
+        font-size: 30px;
+    }
+
+    .dont-think {
+        font-size: 30px;
+    }
+
+    .frame-child17 {
+        padding: 0px;
+    }
+
+    .dont-think {
+        padding-top: 45px;
+    }
+
+    .dont-think-parent {
+
+        padding-bottom: 0;
+    }
+
+    .girl-chatting-online {
+        height: 231px;
+    }
+}
+
+@media (max-width: 1039px) {
+    .imagesec1ourwrk {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        ;
+    }
+
+    #image1 {
+        width: 49%;
+        margin: 0;
+        margin-bottom: 16px;
+   
+    }
+
+    #image2 {
+        width: 49%;
+        margin: 0;
+        margin-bottom: 16px;
+
+    }
+
+    #image3 {
+        width: 49%;
+        margin: 0;
+        margin-bottom: 16px;
+
+    }
+
+    #image4 {
+        width: 49%;
+        margin: 0;
+
+    }
+
+    .casestudy {
+        font-size: 24px;
+    }
+
+    .container411 {
+        font-size: 16px;
+    }
+
+    .accordion {
+        font-size: 24px;
+    }
+
+    .panel p {
+        font-size: 16px;
+    }
+
+    .some-of-the {
+        font-size: 32px;
+    }
+
+    .container411 {
+        font-size: 16px;
+    }
+
+    .frame-child18 {
+        margin-top: 5px;
+    }
+
+    .sec5_img {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .sec5imagesec {
+        flex-direction: column;
+    }
+
+    .rectangle-wrapper {
+        width: 97%;
+    }
+
+    .frame-child17 {
+        width: 97%;
+        margin-bottom: 24px;
+    }
+
+    .logo_links img {
+        margin-right: 10px;
+    }
+
+    .copy_right ul li a {
+        margin-bottom: 10px;
+    }
+
+    .accordion:after {
+        font-size: 30px;
+    }
+
+    .addrs {
+        width: 45%;
+    }
+
+    .accordion p {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .accordion {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+
+}
+
+@media (max-width: 780px) {
+    .prev {
+        left: -55px;
+    }
+    .next{
+        right: -55px;
+    }
+    .class {
+        padding: 12px 85px;
+    }
+
+    .class2 img {
+        height: 40px;
+    }
+    .class1 {
+        align-items: normal;
+    }
+
+    .class3 b {font-size: 16px;}
+    .digital{font-size: 12px;}
+
+    .book_call_button a button {
+        color: var(--primary, #8CDFD6);
+
+        font-size: 15px;
+        border: none;
+        letter-spacing: -0.3px;
+        background: none;
+        padding: 0;
+        width: 100px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+   
+
+    }
+
+    .book_call_button a ::after {
+        content: "\003E";
+        position: absolute;
+        right: -8px;
+        padding-right: 8px;
+    }
+
+    #container1 {
+        padding: 80px 85px;
+
+
+    }
+
+    .unloking {
+        max-width: 350px;
+    }
+
+    #c1 h1 {
+        margin-bottom: 16px;
+        font-size: 24px;
+        letter-spacing: -0.48px;
+    }
+
+    #c2 {
+        margin-bottom: 24px;
+    }
+
+    #c2 p {
+
+        font-size: 16px;
+        letter-spacing: -0.32px;
+    }
+
+    #c2 p span {
+        font-size: 16px;
+        letter-spacing: -0.32px;
+    }
+
+    #c3 button {
+
+        padding: 10px;
+        padding-right: 16px;
+        padding-left: 16px;
+
+        font-size: 15px;
+        letter-spacing: -0.3px;
+    }
+
+    .Free_E_book {
+        font-size: 15px;
+        letter-spacing: -0.3px;
+
+    }
+
+    .download-icon {
+        height: 16px;
+        width: 16px;
+    }
+
+    #content2 {
+        font-size: 24px;
+        letter-spacing: 0.48px;
+    }
+
+    #content2 span {
+        font-size: 24px;
+        letter-spacing: 0.48p
+    }
+
+    #container2 {
+        padding: 80px 85px;
+    }
+
+    #content31 h3 {
+        font-size: 24px;
+        letter-spacing: -0.48px;
+    }
+
+    #content32 p {
+        font-size: 24px;
+    }
+
+    .content33 {
+        font-size: 16px;
+        letter-spacing: 0.32px;
+    }
+
+    #content332 {
+        padding: 0;
+    }
+
+    .underline {
+        height: 4px;
+    }
+
+    .container3 {
+        padding: 80px 85px;
+    }
+
+    #content31 {
+        padding-bottom: 24px;
+    }
+
+    .line {
+        width: 116px;
+        height: 4px;
+        margin-top: 16px;
+    }
+
+    /* ...............................sec4.................................... */
+    #our_work1 {
+        font-size: 24px;
+        letter-spacing: -0.48px;
+    }
+
+    #our_work2 {
+        font-size: 24px;
+    }
+
+    .casestudy {
+        font-size: 24px;
+    }
+   
+
+    #image1 {
+        width: 100%;
+        margin-right: 0;
+      
+    }
+
+    #image2 {
+        width: 100%;
+        margin-right: 0;
+
+    }
+
+    #image3 {
+        width: 100%;
+        margin-right: 0;
+
+    }
+
+    #image4 {
+        width: 100%;
+        margin-right: 0;
+
+    }
+
+    .section_4 {
+        padding: 80px 85px;
+    }
+
+    /* .......................................................sec5.......................................... */
+    .our-work {
+        font-size: 24px;
+        letter-spacing: -0.48px;
+    }
+
+    .practical-solutions-that {
+        font-size: 24px;
+        letter-spacing: -0.48px;
+    }
+
+    .sec5_img {
+        flex-wrap: wrap;
+    }
+
+    .design {
+        font-size: 24px;
+        letter-spacing: -0.48px;
+    }
+
+    .uxui-design-and {
+        font-size: 16px;
+        letter-spacing: -0.32px;
+    }
+
+    .practical-solutions-that {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .frame-child15 {
+        margin-top: 16px;
+        height: 4px;
+        width: 135px;
+
+    }
+
+    .rectangle-wrapper {
+        height: 240px;
+        padding: 24px;
+        margin-bottom: 16px;
+
+    }
+
+    .frame-child17 {
+        height: 240px;
+        padding: 24px;
+    }
+
+    .dont-think {
+        font-size: 32px;
+        padding: 0;
+    }
+
+    .lets-chat {
+        font-size: 32px;
+    }
+
+    .girl-chatting-online {
+        width: 154px;
+        height: 158px;
+    }
+
+    .design-parent {
+        gap: 6px;
+    }
+
+    .section5 {
+        padding: 80px 85px;
+    }
+
+    .coming_up p {
+        font-size: 16px;
+        letter-spacing: -0.32px;
+        padding: 12px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .practical-solutions-that {
+        margin-top: 24px;
+        margin-bottom: 40px;
+    }
+
+    /* ....................................sec6................................... */
+    b.reviews {
+        font-size: 24px;
+        letter-spacing: -0.48px;
+    }
+
+    .hear-it-from {
+        font-size: 24px;
+        letter-spacing: -0.48px;
+    }
+
+    .byte-digitals-expertise {
+        font-size: 16px;
+        letter-spacing: -0.32px;
+        margin-bottom: 24px;
+    }
+
+    .bruce-lee-parent {
+        flex-direction: column;
+    }
+
+    .bruce-lee {
+        font-size: 16px;
+        letter-spacing: -0.32px;
+    }
+
+    .acme-incorporation {
+        font-size: 16px;
+        letter-spacing: -0.32px;
+        margin: 0px;
+
+    }
+
+    .line-div {
+        margin-bottom: 24px;
+        margin-top: 16px;
+        height: 4px;
+        width: 91px;
+    }
+
+    .dots {
+        padding-top: 24px;
+    }
+
+    .section6 {
+        padding: 80px 85px;
+    }
+
+    .download-icon {
+        height: 16px;
+        width: 16px;
+        margin-left: 0px;
+    }
+
+    .dot {
+        width: 12px;
+        height: 12px;
+    }
+
+    /* ........................................sec7........................................... */
+    .FAQs {
+        font-size: 24px;
+        letter-spacing: -0.48px;
+    }
+
+    .some-of-the {
+        font-size: 16px;
+        letter-spacing: -0.32px;
+        padding-bottom: 8px;
+
+    }
+
+    .accordion {
+
+        font-size: 24px;
+
+        letter-spacing: -0.48px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .accordion p {
+        width: 100%;
+        max-width: 270px;
+        text-align: left;
+    }
+
+    .panel p {
+
+        font-size: 20px;
+
+        letter-spacing: -0.4px;
+        margin-bottom: 16px;
+    }
+
+    .faqcontent {
+        font-size: 20px;
+
+        letter-spacing: -0.4px;
+    }
+
+    .frame-child18 {
+        margin-bottom: 40px;
+        height: 4px;
+        width: 180px;
+        margin-top: 16px;
+    }
+
+    .dr {
+        padding: 80px 85px;
+
+    }
+
+    /* ...........................................footer............................................ */
+    .have_project h3 {
+        font-size: 24px;
+    }
+
+    .have_convo p {
+        font-size: 16px;
+        margin-top: 8px;
+        margin-bottom: 24px;
+
+    }
+
+    .header_book a {
+        font-size: 15px;
+        letter-spacing: -0.3px;
+    }
+
+    .add_cmpny-name p {
+        font-size: 24px;
+        letter-spacing: 1.44px;
+        margin-bottom: 8px;
+    }
+
+    .cmpny_address p {
+        font-size: 14px;
+        letter-spacing: 0.84px;
+        margin-bottom: 8px;
+
+    }
+
+    .cmpny_phn_no a {
+        font-size: 20px;
+        letter-spacing: 1.2px;
+        margin-bottom: 8px;
+        display: block;
+
+    }
+
+    .cmpny_email a {
+        font-size: 20px;
+        letter-spacing: 1.2px;
+
+    }
+
+    .cmpny_email {
+        margin-bottom: 24px;
+    }
+
+    .cmpny p {
+        font-size: 24px;
+        letter-spacing: 1.44px;
+        margin-bottom: 24px;
+    }
+
+    .service4 {
+        font-size: 15px;
+        letter-spacing: 0.9px;
+        margin-bottom: 0;
+        color: #666;
+        margin-bottom: 0;
+    }
+
+    .service3 {
+        font-size: 15px;
+        letter-spacing: 0.9px;
+        color: #666;
+        margin-bottom: 0;
+    }
+
+    .service2 {
+        font-size: 15px;
+        letter-spacing: 0.9px;
+        color: #666;
+        margin-bottom: 0;
+    }
+
+    .service1 {
+        font-size: 15px;
+        letter-spacing: 0.9px;
+        color: #666;
+        letter-spacing: 0.9px;
+        margin-bottom: 0;
+    }
+
+    .header_book button {
+        margin-bottom: 24px;
+        padding: 13px;
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+
+    .hrline {
+        margin-bottom: 24px;
+    }
+
+    .addrs {
+        margin-bottom: 8px;
+        width: 100%;
+    }
+
+    .foot {
+        margin-bottom: 24px;
+        margin-top: 24px;
+    }
+
+    .footer {
+        padding: 80px 85px;
+
+    }
+
+    .links p {
+        display: flex;
+    }
+
+    .footer_table_sec {
+        flex-direction: column;
+    }
+
+    .cmpny {
+        display: none;
+    }
+
+    .addrs::after {
+        content: "Company";
+        color: #1F1F1F;
+        font-family: IBM Plex Sans;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.44px;
+    }
+
+    .copy_right {
+        width: 100%;
+        color: #3D3D3D;
+        font-size: 16px;
+        letter-spacing: 0.96px;
+    }
+
+    .copyright {
+        width: 100%;
+    }
+
+    .common_links {
+        flex-direction: column-reverse;
+        align-items: normal;
+        margin-top: 0px;
+        gap: 16px;
+    }
+
+    .links {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 98%;
+    }
+
+    .copy_right ul {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .tndc a {
+        width: 40%;
+        color: #666;
+        font-size: 14px;
+        letter-spacing: 0.84px;
+
+
+    }
+
+    .tndc {
+        padding-right: 16px;
+    }
+
+    .privacy-policy a {
+        width: 40%;
+        color: #666;
+        font-size: 14px;
+        letter-spacing: 0.84px;
+    }
+
+    .privacy-policy {
+        width: 40%;
+    }
+
+    .book_call_button {
+        width: 107px;
+    }
+
+  
+}
+
+@media(max-width:550px) {
+    .prev{
+        display: none;
+    }
+    .next{
+        display: none;
+    }
+    #container1 {
+        background-image: none;
+
+    }
+
+    .unloking {
+        width: 100%;
+    }
+
+    .class {
+        padding: 12px 40px;
+    }
+
+    #container1 {
+        padding: 80px 40px;
+
+
+    }
+
+    #container2 {
+        padding: 80px 40px;
+    }
+
+    .container3 {
+        padding: 80px 40px;
+    }
+
+    .section_4 {
+        padding: 80px 40px;
+    }
+
+    .section5 {
+        padding: 80px 40px;
+    }
+
+    .section6 {
+        padding: 80px 40px;
+    }
+
+    .dr {
+        padding: 80px 40px;
+
+    }
+
+    .footer {
+        padding: 80px 40px;
+
+    }
+}
+@media(max-width:380px){
+    .class {
+        padding: 12px 16px;
+    }
+
+    #container1 {
+        padding: 80px 16px;
+
+
+    }
+
+    #container2 {
+        padding: 80px 16px;
+    }
+
+    .container3 {
+        padding: 80px 16px;
+    }
+
+    .section_4 {
+        padding: 80px 16px;
+    }
+
+    .section5 {
+        padding: 80px 16px;
+    }
+
+    .section6 {
+        padding: 80px 16px;
+    }
+
+    .dr {
+        padding: 80px 16px;
+
+    }
+
+    .footer {
+        padding: 80px 16px;
+
+    }}

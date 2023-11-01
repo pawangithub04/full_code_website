@@ -1,0 +1,1526 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*header*/
+
+
+.header {
+    padding: 24px 252px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+.logo img{
+    max-width: 64px;
+    min-height: 64px;
+}
+
+#active{
+    color: #8CDFD6;
+    font-weight: 700;
+}
+
+.byte {
+    color: #F5F5F5;
+    font-family: IBM Plex Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.56px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.digital {
+    color: #F5F5F5;
+    font-family: IBM Plex Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    box-sizing: border-box;
+    width: 100%;
+   
+}
+
+.headlinks {
+    display: flex;
+    column-gap: 48px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+  
+.no-decoration button:hover {
+    cursor: pointer;
+
+}
+
+.no-decoration button {
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.34px;
+    border-radius: 8px;
+    border: 2px solid #32B4A5;
+    background: #8CDFD6;
+    padding: 11px 27px;
+    box-sizing: border-box;
+}
+
+.hamburger {
+    display: none;
+}
+
+.headlinks a:active {
+    color: #8CDFD6;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.32px;
+    box-sizing: border-box;
+}
+.headlinks a:hover{
+    color: #8CDFD6;;
+}
+
+.headlinks a {
+    color: var(--white, #FFF);
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.32px;
+    box-sizing: border-box;
+}
+
+/*main*/
+.gibbon_page {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+#gib_sec1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 32px 252px 120px 252px;
+    row-gap: 80px;
+}
+@media (max-width: 1512px){
+    .header {
+        padding: 24px 150px;
+    }
+
+
+    .byte {
+        font-size: 28px;
+        letter-spacing: -0.56px;
+    }
+
+    .digital {
+        font-size: 20px;
+        letter-spacing: -0.4px;
+    }
+
+    .no-decoration button {
+        font-size: 17px;
+        letter-spacing: -0.34px;
+    }
+
+    .headlinks a {
+        font-size: 16px;
+        letter-spacing: -0.34px;
+    }}
+    @media (max-width: 1300px){
+        .header {
+            padding: 24px 100px;
+        }}
+
+@media(max-width:1100px){
+    .header{align-items: center;
+        justify-content: space-between;}
+        .headlinks{display: none;}
+        header .hamburger {
+        display: block;
+        }
+        .logo img{
+            max-width: 40px;
+        }
+        
+        header .headlinks {
+        margin: 0;
+        position: absolute;
+        top: -100%;
+        left: 0;
+        
+        height: fit-content;
+        background: linear-gradient(90deg, #232526 0%, #414345 100%);
+        transition: 0.3s;
+        text-align: center;
+        z-index: 2;
+        
+        }
+        .headlinks .active{
+        width: 100%;
+        }
+        .byte{
+            font-size: 16px;
+        }
+        .digital{
+            font-size: 12px;
+        }
+        
+        
+        header .headlinks.active {
+        top: 100px;
+        width: -webkit-fill-available;
+        }
+        header .headlinks.active .no-decoration{
+        margin-top: 24px;
+        margin-bottom: 24px;
+        }
+        header .headlinks.active .no-decoration button{
+        width: 80%;
+        }
+        header .headlinks  {
+        display: block;
+        }
+        
+        .hamburger div{
+        width: 30px;
+        height: 2px;
+        margin: 6px 0;
+        background: #fff;
+        }
+        }
+
+/*topleft*/
+/*main*/
+.gibbon_page {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+#gib_sec1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 32px 252px 120px 252px;
+    row-gap: 80px;
+}
+
+/*topleft*/
+.gib_sec1_top_left {
+ display: none;
+}
+
+
+.gib_sec1_top_left a {
+    padding: 9px;
+    text-decoration: none;
+}
+
+.gib_sec1_top_left p {
+    color: #FFF;
+    font-family: IBM Plex Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.34px;
+    text-decoration: none;
+}
+
+.gib_sec1_top_left .active {
+    color: var(--primary, #8CDFD6);
+    font-weight: 700;
+}
+
+@media(max-width:1512px) {
+    #gib_sec1 {
+        padding: 32px 150px 120px 150px;
+        ;
+    }
+}
+
+@media(max-width:1300px) {
+    #gib_sec1 {
+        padding: 32px 100px 120px 100px;
+        ;
+    }
+}
+
+@media(max-width:1100px) {
+    .gib_sec1_top_left p {
+        font-size: 15px;
+        letter-spacing: -0.3px;
+    }
+}
+
+@media(max-width:650px) {
+    .gib_sec1_top_left p {
+        font-size: 17px;
+        letter-spacing: -0.34px;
+    }
+}
+
+
+/*section_1 main*/
+.gib_sec_main {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+.sec_main_img{
+    width: 40%;
+}
+.sec1_main_main{
+    width: 60%;
+}
+
+.gib_sec_main_div {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.sec1_main_main ul {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+
+.sec1_main_main li {
+    color: #A3A3A3;
+    font-family: IBM Plex Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+.sec_main_main_content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.sec_main_main_content h1 {
+    color: #FFF;
+    font-family: IBM Plex Sans;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.sec_main_main_content h2 {
+    color: #CCC;
+    font-family: IBM Plex Sans;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.sec_main_main_content p {
+    color: #CCC;
+    font-family: IBM Plex Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.sec_main_img img{
+    width: 100%;
+}
+.gib_sec_1_img_p{
+    display: none;
+}
+
+
+
+
+
+
+@media(max-width:1512px) {
+   
+}
+
+@media(max-width:1300px) {
+    
+}
+
+@media(max-width:1100px) {
+    #gib_sec1 {
+        row-gap: 32px;
+        padding: 32px 80px 32px 80px;
+    }
+    .sec1_main_main li {
+        font-size: 16px;
+
+    }
+    .sec_main_main_content h1 {
+        font-size: 32px;
+    }
+    .sec_main_main_content h2 {
+        font-size: 20px;
+    }
+    .sec_main_main_content p {
+        font-size: 16px;
+    }
+    
+}
+
+@media(max-width:650px) {
+    #gib_sec1 {
+        row-gap: 32px;
+        padding: 41px 40px 32px 40px;
+    }
+    .sec_main_main_content {
+        row-gap: 8px;
+    }
+    .gib_sec_1_img_p{
+        display: block;
+        height: 483px;
+    }
+    .gib_sec_1_img{
+        display: none;
+    }
+    .sec_main_img{
+        display: none;
+    }
+    .sec1_main_main{ width: 100%;}
+    .sec1_main_main ul {
+        column-gap: 23px;
+        margin-bottom: 15px;
+    }
+
+    
+}
+
+/*section_1 main*/
+
+/*section2*/
+#gib_sec2 {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+
+.gib_overview {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 80px 56px 80px 252px;
+    row-gap: 40px;
+    width: 60%;
+    background-color: #666;
+}
+
+.over_view_h1 {
+    color: #FFF;
+    font-family: IBM Plex Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.8px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 24px;
+}
+
+.over_view_p {
+    color: var(--white, #FFF);
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.48px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+
+.project_overview_ul li {
+    color: var(--white, #FFF);
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.48px;
+    box-sizing: border-box;
+    width: 100%;
+    list-style: none;
+}
+
+.project_overview_ul li::before {
+    content: "\2022";
+    margin-right: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 10px;
+}
+@media(max-width:1500px){
+    .gib_overview {
+        padding: 80px 24px 80px 150px;
+    }
+}
+@media(max-width:1300px){
+    .gib_overview {
+        padding: 80px 24px 80px 100px;
+    }
+}
+
+@media(max-width:1100px){
+    .gib_overview h3 {
+        margin: 0px;
+        margin-bottom: 24px;
+    }
+    .over_view_p {
+        font-size: 16px;
+        letter-spacing: -0.32px;
+    }
+
+
+    .over_view_h1 {
+        font-size: 24px;
+        letter-spacing: -0.48px;
+    
+        margin-top: 24px;
+        
+    }
+    .project_overview_ul li {
+        font-size: 16px;
+        letter-spacing: -0.32px;
+    }
+    .gib_overview {
+        padding: 80px 24px 80px 80px;
+    }
+    .project_overview_ul{
+        margin-top:20px;
+        margin-bottom: 20px;
+    }
+    .gib_overview {
+        
+        width: 60%;
+    }
+   
+}
+@media(max-width:650px){
+    #gib_sec2 {
+        flex-direction: column-reverse;
+    }
+    .gib_overview h3 {
+        margin: 0px;
+        margin-bottom: 24px;
+    }
+    .over_view_p {
+        font-size: 16px;
+        letter-spacing: -0.32px;
+    }
+
+
+    .over_view_h1 {
+        font-size: 24px;
+        letter-spacing: -0.48px;
+    
+        margin-top: 24px;
+        
+    }
+    .project_overview_ul li {
+        font-size: 16px;
+        letter-spacing: -0.32px;
+    }
+    .gib_overview {
+        padding: 32px 40px 32px 40px;
+        width: 100%;
+        
+    }
+    .project_overview_ul{
+        margin-top:20px;
+        margin-bottom: 20px;
+    }}
+
+/*gib__MULTIMEDIA*/
+.gib_multimedia {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 40%;
+    min-height: 1243px;
+    padding: 80px 252px 0 56px;
+    background: #F5F5F5;
+}
+
+.gib_multimedia h3 {
+    color: #0A0A0A;
+    font-family: IBM Plex Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.8px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.gib_multimedia p {
+    color: #3D3D3D;
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.48px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.gib_multimedia_P1 {
+    padding-bottom: 20px;
+}
+@media(max-width:1500px){
+    .gib_multimedia {
+        padding: 80px 150px 0 50px;
+        width: 40%;
+        min-height: 850px;
+    }
+}
+@media(max-width:1300px){
+    .gib_multimedia {
+        padding: 80px 100px 0 50px;
+        width: 40%;
+        min-height: 850px;
+    }
+}
+@media(max-width:1100px){
+    .gib_multimedia {
+        padding: 80px 80px 0 25px;
+        width: 40%;
+        min-height: 850px;
+    }
+    .gib_multimedia h3 {
+        font-size: 24px;
+        letter-spacing: -0.48px;
+    }
+    .gib_multimedia p {
+        font-size: 16px;
+        letter-spacing: 0.32px;
+    }
+   
+}
+@media(max-width:650px){
+    .gib_multimedia {
+        padding: 32px 40px 32px 40px;
+        width: 100%;
+        min-height: 400px;
+       
+    }}
+/*section3*/
+#gib_sec3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 80px 256px;
+    row-gap: 80px;
+}
+
+.gibbon_third_image_section {
+    box-sizing: border-box;
+    width: 100%;
+    max-width:1,328px;
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+
+}
+.design_service{
+    box-sizing: border-box;
+    width: 50%;
+    min-height: 444px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    
+}
+
+.design_service img {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 40px;
+  
+   
+}
+
+.design_service h3 {
+    color: var(--white, #FFF);
+    font-family: IBM Plex Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.96px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.design_service p {
+    color: var(--white, #FFF);
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.48px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.service_img{
+    width: 50%;
+    
+}
+
+.service_img img {
+    box-sizing: border-box;
+    width: 100%;
+    
+    
+}
+@media(max-width:1512px){
+    #gib_sec3 {
+        padding: 80px 150px ;
+       
+    }
+}
+@media(max-width:1300px){
+    #gib_sec3 {
+        padding: 80px 100px ;
+       
+    }
+}
+@media(max-width:1100px){
+    .design_service h3 {
+        font-size: 24px;
+        letter-spacing: -0.48px;
+    }
+    .design_service p {
+        font-size: 16px;
+        letter-spacing: -0.32px;
+    }
+    .service_img img {
+        height: 100%;
+        max-height: 300px;
+    }
+    #gib_sec3 {
+        padding: 80px 85px ;
+       
+    }
+    
+    .design_service {
+    min-height: 0px;
+    justify-content: center;}
+}
+@media(max-width:650px){
+    
+   
+    .service_img img {
+      width: 100%;
+      height: 100%;
+      max-height: 600px;
+    }
+    #gib_sec3 {
+        padding: 32px 40px ;
+       
+    }
+    .gibbon_third_image_section {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    
+    .design_service {
+    width: 100%;
+    }
+    #gibbon_third_image_section2 {
+        flex-direction: column-reverse;
+    }
+    .service_img {
+        width: 100%;
+       
+    }
+   
+}
+/*gib_section_4*/
+#gib_sec4{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 252px ;
+    row-gap: 40px;
+    justify-content: center;
+    background: #3D3D3D;
+
+}
+#gib_sec4 h2{
+    box-sizing: border-box;
+width: 100%;
+color: #F5F5F5;
+font-family: IBM Plex Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.8px;
+
+}
+.underline{
+    max-width: 100%;
+    max-width: 149px;
+min-height: 8px;
+
+background: #70C1D6;
+}
+#gib_sec4 h3{
+    box-sizing: border-box;
+width: 100%;
+color: #F5F5F5;
+font-family: IBM Plex Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.64px;
+}
+#gib_sec4 p{
+    color: #F5F5F5;
+font-family: IBM Plex Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.48px;
+box-sizing: border-box;
+width: 100%;
+}
+.reviewer{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    row-gap: 13px;
+
+}
+.names{
+    display: flex;
+    box-sizing: border-box;
+    
+  
+    
+}
+.name{    width: 100%;
+    max-width: 91px;}
+#gib_sec4 .name{
+    color: #EBEBEB;
+font-family: IBM Plex Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.32px;
+
+box-sizing: border-box;
+}
+#gib_sec4 .name_span{
+    color: #8F8F8F;
+font-family: IBM Plex Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.32px;
+box-sizing: border-box;
+}
+@media(max-width:1512px){
+    #gib_sec4{
+        padding: 80px 150px ;
+        row-gap: 40px;
+    
+    }
+}
+@media(max-width:1300px){
+    #gib_sec4{
+        padding: 80px 100px ;
+        row-gap: 40px;
+    
+    }
+}
+@media(max-width:1100px){
+    #gib_sec4 {
+        row-gap: 24px;
+    }
+    #gib_sec4 h2{
+        font-size: 32px;
+        letter-spacing: -0.64px;
+    }
+    .underline{
+        width: 121px;
+        height: 8px;
+    }
+    #gib_sec4 h3{
+        font-size: 24px;
+        letter-spacing: -0.48px;
+    }
+    #gib_sec4 p{
+        font-size: 16px;
+        letter-spacing: -0.32px;
+    }
+
+}
+@media(max-width:650px){
+    #gib_sec4 {
+        row-gap: 24px;
+        padding: 32px 40px 32px 40px;
+    }
+    
+
+}
+/*footer*/
+.have_project{
+    text-align: center;
+}
+
+.have_project h3{
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+
+}
+.have_convo{
+    text-align: center;
+    
+    margin: 0;
+}
+.have_convo p{
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+.header_book button{
+    border-radius: 8px;
+    border: 2px solid #32B4A5;
+    background: #8CDFD6;
+    display: block;
+    margin: auto;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top:24px ;
+    padding-bottom:24px ;
+    text-align: center;
+    margin-bottom: 48px;}
+    .header_book a {color: #000;
+font-family: IBM Plex Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.48px;
+margin-bottom: 48px;
+}
+
+.add_cmpny-name p {
+    color: #1F1F1F;
+    font-family: IBM Plex Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.92px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+.cmpny_address p { 
+    color: #3D3D3D;
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.44px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+.cmpny_phn_no a{
+    color: #3D3D3D;
+    font-family: IBM Plex Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.92px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+.cmpny_email a{
+    color: #3D3D3D;
+    font-family: IBM Plex Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.92px;
+}
+.cmpny p{
+    color: #3D3D3D;
+    font-family: IBM Plex Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.92px;
+    margin: 0;
+    margin-bottom: 24px;
+}
+.service1{
+    color: #1F1F1F;
+font-family: IBM Plex Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.44px;
+margin-bottom: 16px;
+}
+.service2{
+    color: #1F1F1F;
+font-family: IBM Plex Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.44px;
+margin-bottom: 16px;
+}
+.service3{
+    color: #1F1F1F;
+font-family: IBM Plex Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.44px;
+margin-bottom: 16px;
+}
+.service4{
+    color: #1F1F1F;
+font-family: IBM Plex Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.44px;
+margin-bottom: 16px;
+}
+.copyright a{
+    color: #3D3D3D;
+font-family: IBM Plex Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.96px;
+}
+.tndc a{
+    color: #292929;
+font-family: IBM Plex Sans;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.02px;
+}
+.privacy-policy a{
+    color: #292929;
+font-family: IBM Plex Sans;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.02px;
+}
+.footer{
+    padding: 85px 252px;
+    background: #98D2E1;
+}
+.footer_table_sec{
+    display: flex;
+    justify-content: space-between;
+}
+.common_links{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: 40px;
+    align-items: center;
+}
+.copy_right ul {
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    list-style: none;
+
+}
+.logo_links{
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+    
+}
+
+.copy_right{
+    width: 800px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.addrs{
+    width: 690px;
+    margin-bottom: 80px;
+}
+.hrline{
+    height: 3px;
+stroke-width: 4px;
+background: #292929;
+margin-bottom: 80px;
+}
+hr{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.foot{
+    height: 2px;
+stroke-width: 4px;
+background: #3d3d3d;
+margin-bottom: 80px;
+}
+@media(max-width:1500px){
+    .have_project h3 {
+        font-size: 80px;
+    }
+    .have_convo p {
+        font-size: 32px;
+        margin-top: 8px;
+        margin-bottom: 24px;
+
+    }
+    .header_book a {
+        font-size: 17px;
+        letter-spacing: -0.34px;
+    }
+    .add_cmpny-name p {
+        font-size: 32px;
+        letter-spacing: 1.92px;
+        margin-bottom: 16px;
+    }
+    .cmpny_address p {
+        font-size: 16px;
+        letter-spacing: 0.96px;
+        margin-bottom: 16px;
+
+    }
+    .cmpny_phn_no a {
+        font-size: 24px;
+        letter-spacing: 1.44px;
+        margin-bottom: 16px;
+        display: block;
+        margin-bottom: 16px;
+    }
+    .cmpny_email a {
+        font-size: 24px;
+        letter-spacing: 1.44px;
+    }
+    .cmpny p {
+        font-size: 32px;
+        letter-spacing: 1.92px;
+        margin-bottom: 24px;
+    }
+     .service4 {
+        font-size: 16px;
+        letter-spacing: 0.96px;
+        margin-bottom: 0;
+    }
+    .service3  {
+        font-size: 16px;
+        letter-spacing: 0.96px;
+    }
+     .service2{
+        font-size: 16px;
+        letter-spacing: 0.96px;
+    }
+    .service1 {
+        font-size: 16px;
+        letter-spacing: 0.96px;
+    }
+    .header_book button {
+        margin-bottom: 40px;
+        padding: 13px;
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+    .hrline {
+        margin-bottom: 40px;
+    }
+    .addrs {
+        margin-bottom: 0px;
+    }
+    .foot {
+        margin-bottom: 40px;
+        margin-top: 32px;
+    }
+    .footer {
+        padding: 80px 150px;
+    }
+}
+@media(max-width:1300px){
+    .footer {
+        padding: 80px 1px;
+    }
+}
+@media(max-width:1100px){
+    .have_project h3 {
+        font-size: 40px;
+    }
+    .have_convo p {
+        font-size: 16px;
+        margin-top: 8px;
+        margin-bottom: 16px;
+
+    }
+    .header_book a {
+        font-size: 17px;
+        letter-spacing: -0.34px;
+    }
+    .add_cmpny-name p {
+        font-size: 24px;
+        letter-spacing: 1.92px;
+        margin-bottom: 16px;
+    }
+    .cmpny_address p {
+        font-size: 16px;
+        letter-spacing: 0.96px;
+        margin-bottom: 16px;
+
+    }
+    .cmpny_phn_no a {
+        font-size: 20px;
+        letter-spacing: 1.2px;
+        margin-bottom: 16px;
+        display: block;
+      
+    }
+    .cmpny_email a {
+        font-size: 20px;
+        letter-spacing: 1.2px;
+    }
+    .cmpny p {
+        font-size: 24px;
+        letter-spacing: 1.44px;
+        margin-bottom: 24px;
+    }
+     .service4 {
+        font-size: 16px;
+        letter-spacing: 0.96px;
+        margin-bottom: 0;
+    }
+    .service3  {
+        font-size: 16px;
+        letter-spacing: 0.96px;
+    }
+     .service2{
+        font-size: 16px;
+        letter-spacing: 0.96px;
+    }
+    .service1 {
+        font-size: 16px;
+        letter-spacing: 0.96px;
+    }
+    .header_book button {
+        margin-bottom: 16px;
+        padding: 11px 24px;
+    }
+    .hrline {
+        margin-bottom: 16px;
+    }
+    .addrs {
+        margin-bottom: 0px;
+    }
+    .foot {
+        margin-bottom: 24px;
+        margin-top: 24px;
+    }
+    .footer {
+        padding: 85px ;
+    }
+    
+    .logo_links {
+        column-gap: 10px;
+    }
+    .addrs {
+        width: 50%;
+    }
+}
+@media(max-width:650px){
+    header .headlinks.active {
+        padding: 0;
+    }
+    .header {
+        padding: 16px 40px ;
+        }
+        .have_project h3 {
+        font-size: 24px;
+        }
+        .have_convo p {
+            font-size: 16px;
+            margin-top: 8px;
+            margin-bottom: 24px;
+        
+        }
+        .header_book a {
+            font-size: 15px;
+            letter-spacing: -0.3px;
+        }
+        .add_cmpny-name p {
+            font-size: 24px;
+            letter-spacing: 1.44px;
+            margin-bottom: 8px;
+        }
+        .cmpny_address p {
+            font-size: 14px;
+            letter-spacing: 0.84px;
+            margin-bottom: 8px;
+        
+        }
+        .cmpny_phn_no a {
+            font-size: 20px;
+            letter-spacing: 1.2px;
+            margin-bottom: 8px;
+            display: block;
+            
+        }
+        .cmpny_email a {
+            font-size: 20px;
+            letter-spacing: 1.2px;
+            
+        }
+        .cmpny_email{
+            margin-bottom: 24px;
+        }
+        .cmpny p {
+            font-size: 24px;
+            letter-spacing: 1.44px;
+            margin-bottom: 24px;
+        }
+         .service4 {
+            font-size: 15px;
+            letter-spacing: 0.9px;
+            margin-bottom: 0;
+            color: #666;
+            margin-bottom: 0;
+        }
+        .service3  {
+            font-size: 15px;
+            letter-spacing: 0.9px;
+            color: #666;
+            margin-bottom: 0;
+        }
+         .service2{
+            font-size: 15px;
+            letter-spacing: 0.9px;
+            color: #666;
+            margin-bottom: 0;
+        }
+        .service1 {
+            font-size: 15px;
+            letter-spacing: 0.9px;
+            color: #666;
+        letter-spacing: 0.9px;
+        margin-bottom: 0;
+        }
+        .header_book button {
+            margin-bottom: 24px;
+            padding: 13px;
+            padding-right: 32px;
+            padding-left: 32px;
+        }
+        .hrline {
+            margin-bottom: 24px;
+        }
+        .addrs {
+           margin-bottom: 8px;
+            width: 100%;
+        }
+        
+        .foot {
+            margin-bottom: 24px;
+            margin-top: 24px;
+        }
+        .footer {
+            padding: 32px;
+            padding-right: 40px;
+            padding-left: 40px;
+        }
+        
+        .links p {
+            display: flex;
+        }
+        .footer_table_sec {
+            flex-direction: column;
+        }
+        .cmpny{
+            display: none;
+        }
+        .addrs::after{
+            content: "Company";
+            color: #1F1F1F;
+            font-family: IBM Plex Sans;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 1.44px;
+        }
+        .copy_right {
+            width: 100%;
+            color: #3D3D3D;
+            font-size: 16px;
+            letter-spacing: 0.96px;
+        }
+        .copyright{
+            width: 100%;
+        }
+        .common_links {
+            flex-direction: column-reverse;
+            align-items: normal;
+            margin-top: 0px;
+            gap: 16px;
+        }
+        .links {
+            flex-direction: row;
+            justify-content: space-between;
+            width: 98%;
+        }
+        .copy_right ul {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;}
+        .tndc a{
+            width: 40%;
+            color: #666;
+            font-size: 14px;
+            letter-spacing: 0.84px;
+            
+        
+        }
+        .tndc{
+            padding-right: 16px;
+        }
+        .privacy-policy a{
+            width: 40%;
+            color: #666;
+            font-size: 14px;
+            letter-spacing: 0.84px;
+        }
+        .privacy-policy{
+            width: 40%;
+       
+        }
+}
+@media(max-width:395px){
+    .header {
+        padding: 16px;
+    }
+    #gib_sec1 {
+        padding: 15px 16px 32px 16px;
+    }
+    .gib_overview {
+        padding: 32px 16px 32px 16px;
+    }
+      .gib_multimedia {
+         padding: 32px 16px 32px 16px;
+      }
+      #gib_sec3 {
+        padding: 32px 16px ;
+       
+    }
+     #gib_sec4 {
+        row-gap: 24px;
+        padding: 32px 16px 32px 16px;
+    }
+    .footer {
+        padding:32px 16px;
+    }
+
+
+}
+

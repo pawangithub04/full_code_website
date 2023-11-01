@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section_4 {
+    padding: 85px 252px;
+    background: #3D3D3D;
+
+}
+/* #image1::before{
+    content: "";
+    background-image: url("../IMAGES/section_4_image_1.png");
+    background-size: cover cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    min-height: 447px;
+    z-index: -1;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border: 2px solid #B0DDE8;
+
+    border-radius: 24px;
+    
+} */
+.workimg{
+    display: contents;
+}
+
+#image1 {
+    position: relative;
+    width: 60%;
+    border-radius: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+    display: flex;
+    z-index: 2;
+    background: #BEF2EE;
+    padding: 40px;
+    box-sizing: border-box;
+    min-height: 240px;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 30px;
+}
+
+
+
+#image2 {
+    /* position: relative;
+    width: 37%;
+    border-radius: 24px;
+    background: linear-gradient(0deg, #000 0%, rgba(63, 63, 63, 0.68) 42.71%, rgba(196, 196, 196, 0.00) 100%);
+    background: #FBFADA;
+    margin-bottom: 24px;
+    border: 2px solid #B0DDE8;
+    margin-right: 6px;
+    box-sizing: border-box;
+    padding: 40px;
+    box-sizing: border-box;
+    min-height: 240px;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 30px; */
+
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    box-sizing: border-box;
+    padding: 40px;
+    background: #FBFADA;
+    margin-bottom: 24px;
+    border: 2px solid #B0DDE8;
+    margin-right: 6px;
+    width: 37%;
+    border-radius: 24px;
+}
+
+
+
+
+
+#image3 {
+    position: relative;
+    width: 37%;
+    border-radius: 24px;
+    background: linear-gradient(0deg, #000 0%, rgba(63, 63, 63, 0.68) 42.71%, rgba(196, 196, 196, 0.00) 100%);
+    margin-right: 24px;
+    border: 2px solid #B0DDE8;
+    box-sizing: border-box;
+    display: flex;
+    background: #FBFADA;
+    padding: 40px;
+    box-sizing: border-box;
+    min-height: 240px;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 30px;
+}
+
+#image4 {
+    position: relative;
+    width: 60%;
+    border-radius: 24px;
+    background: linear-gradient(0deg, #000 0%, rgba(63, 63, 63, 0.68) 42.71%, rgba(196, 196, 196, 0.00) 100%);
+    border: 2px solid #B0DDE8;
+    box-sizing: border-box;
+    display: flex;
+    background: #BEF2EE;
+    padding: 40px;
+    box-sizing: border-box;
+    min-height: 240px;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 30px;
+}
+
+
+#our_work3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 24px;
+
+
+}
+.sec_image img{
+    display: flex;
+}
+
+
+.ourwork {
+    width: 100%;
+
+}
+
+#our_work1 {
+    color: #F5F5F5;
+    font-family: IBM Plex Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.8px;
+}
+
+#our_work2 {
+    color: #F5F5F5;
+    font-family: IBM Plex Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%;
+    /* 60px */
+}
+
+.casestudy {
+    color:black;
+    font-family: IBM Plex Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    /* 40px */
+}
+
+.container411 {
+    color:black;
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    /* 30px */
+}
+
+
+.container43 {
+    width: 100%;
+    max-width: 470px;
+}
+
+.line {
+
+    height: 8px;
+    background: #70C1D6;
+    width: 100%;
+    max-width: 192px;
+    margin-top: 24px;
+}
+
+#our_work2 p {
+
+    padding-top: 48px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.imagesec1ourwrk {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}

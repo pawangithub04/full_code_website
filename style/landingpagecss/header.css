@@ -1,0 +1,75 @@
+/* .class {
+    padding: 85px;
+width: 100%;
+
+height: 100%;
+max-height: 129px;
+max-width: 1254px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+} */
+
+.class1 {
+    display: flex;
+padding: 0px;
+align-items: flex-end;
+}
+
+.class3 {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
+
+
+.book_call_button button {
+color: #000;
+font-family: IBM Plex Sans;
+font-size: 23px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.46px;
+border-radius: 8px;
+border: 2px solid #32B4A5;
+background: #8CDFD6;
+/* padding: 15px 32px; */
+justify-content: center;
+gap: 10px;
+width: 177px;
+height: 60px;}
+.book_call_button a button{
+    cursor: pointer;
+}
+.class3 b {
+color: #F5F5F5;
+font-family: IBM Plex Sans;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.72px;
+}
+
+.digital {
+color: #F5F5F5;
+font-family: IBM Plex Sans;
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.52px;
+}
+
+.class {
+    /* padding: 85px; */
+    width: 100%;
+    /* max-width: 20px; */
+    height: 100%;
+    max-height: 167px;
+    max-width: 2057px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 16px 252px;}
